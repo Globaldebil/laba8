@@ -1,0 +1,63 @@
+.movieDetails {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial, sans-serif';
+  color: #333;
+}
+
+.movieHeader {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.moviePoster {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.movieInfo {
+  flex: 1;
+}
+
+.movieTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.movieInfo p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.moviePlot {
+  margin-top: 20px;
+}
+
+.moviePlot h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.moviePlot p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.movieExtras {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.movieExtras p {
+  margin: 5px 0;
+}
